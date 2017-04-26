@@ -32,6 +32,8 @@ QUERY="$(urlencode "$( echo "$ORIGINAL_QUERY" | sed -e 's/ /+/g')")${FILENAME}${
 # URL="https://github.com/search?${PAGE}type=Code&q=$QUERY&ref=searchresults"
 URL="https://github.com/search?${PAGE}type=Code&q=$QUERY"
 
+# docu https://help.github.com/articles/searching-code/
+
 #extension:java
 #fork:true
 
